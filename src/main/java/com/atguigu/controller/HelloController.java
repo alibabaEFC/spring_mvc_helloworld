@@ -14,6 +14,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String hello(){
+        System.out.println("hot-fix test");
         return "successfull4";
 
     }
